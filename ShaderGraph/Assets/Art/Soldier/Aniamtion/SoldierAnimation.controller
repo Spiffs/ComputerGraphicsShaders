@@ -37,7 +37,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: -6337207191384161919, guid: 48a72c06066347d4f8971f88bccbb29e, type: 3}
     m_Threshold: 0
-    m_Position: {x: 0, y: 1}
+    m_Position: {x: 0, y: 2.8}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: XPos
@@ -45,7 +45,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 5721754552788082800, guid: 7f53491f4a998544684115e018ffa170, type: 3}
     m_Threshold: 0.125
-    m_Position: {x: 0.71, y: 0.71}
+    m_Position: {x: 2, y: 2}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: XPos
@@ -53,7 +53,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 571288819037444005, guid: 6cf99d14ed388db449aae37c8b242531, type: 3}
     m_Threshold: 0.25
-    m_Position: {x: 1, y: 0}
+    m_Position: {x: 2.8, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: XPos
@@ -61,7 +61,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 1552099140890474619, guid: 16b72ecb5fb318c43b2b31fe5313d25f, type: 3}
     m_Threshold: 0.375
-    m_Position: {x: 0.71, y: -0.71}
+    m_Position: {x: 2, y: -2}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: XPos
@@ -69,7 +69,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: -6479297384674183509, guid: fdaaa838b1a312d41bffcdf399108cd8, type: 3}
     m_Threshold: 0.5
-    m_Position: {x: 0, y: -1}
+    m_Position: {x: 0, y: -2.8}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: XPos
@@ -77,7 +77,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 7855084013386493841, guid: 0ab694da51356af4e84e93fcd14b5452, type: 3}
     m_Threshold: 0.625
-    m_Position: {x: -0.71, y: -0.71}
+    m_Position: {x: -2, y: -2}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: XPos
@@ -85,7 +85,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: -5520531978474609379, guid: ba7c3294e2f7b5748ac3d2ff93eb0d50, type: 3}
     m_Threshold: 0.75
-    m_Position: {x: -1, y: 0}
+    m_Position: {x: -2.8, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: XPos
@@ -93,7 +93,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: -472228270484220440, guid: 6f7124a76f81d764e97e0785871d6b72, type: 3}
     m_Threshold: 0.875
-    m_Position: {x: -0.71, y: 0.71}
+    m_Position: {x: -2, y: 2}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: XPos
@@ -149,13 +149,13 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: YPos
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
